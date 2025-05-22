@@ -16,7 +16,7 @@ def load_data(employee_list):
         table.insert("", END, values=employee)
 
 
-# clear btn
+
 def reset_form():
     id.set(len(employee_list) + 1)
     full_name.set("")
@@ -64,7 +64,7 @@ def table_select(x):
 
 window = Tk()
 window.title("employee info")
-window.geometry("610x500")
+window.geometry("900x360")
 
 # id
 Label(window, text="ID").place(x=20, y=20)
@@ -92,7 +92,7 @@ start_time = StringVar()
 Entry(window, textvariable=start_time).place(x=80, y=180)
 
 # retirement
-Label(window, text="retirment").place(x=20, y=220)
+Label(window, text="retirement").place(x=20, y=220)
 retire = StringVar()
 Entry(window, textvariable=retire).place(x=80, y=220)
 
