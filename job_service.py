@@ -5,7 +5,7 @@ from file_maneger import *
 from validation import *
 
 employee_list = read_from_file("employee.dat")
-
+print("I AM PAN PAN")
 
 def load_data(employee_list):
     employee_list = read_from_file("employee.dat")
